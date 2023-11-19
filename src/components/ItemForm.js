@@ -6,12 +6,10 @@ function ItemForm({ onItemFormSubmit }) {
   const [itemCategry, setItemCategory] = useState("Produce");
  
   function inputItemName(e){
-    console.log(e.target.value);
     setItemName(e.target.value);
   }
 
   function inputItemCategory(e){
-    console.log(e.target.value);
     setItemCategory(e.target.value);
   }
   
